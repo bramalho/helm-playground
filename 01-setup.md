@@ -3,7 +3,7 @@
 ## Setup minikube
 
 ```bash
-minikube start
+minikube start --vm=true --driver=hyperkit
 minikube addons enable ingress
 
 minikube ip
