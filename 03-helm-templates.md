@@ -14,4 +14,6 @@ kubectl get services
 kubectl get pods
 
 minikube dashboard
+
+helm upgrade demo-guestbook guestbook
 ```
