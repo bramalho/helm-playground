@@ -16,4 +16,6 @@ kubectl get pods
 minikube dashboard
 
 helm upgrade demo-guestbook guestbook
+
+helm uninstall demo-guestbook
 ```
